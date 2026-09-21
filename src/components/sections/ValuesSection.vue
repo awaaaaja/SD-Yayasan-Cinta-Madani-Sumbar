@@ -62,7 +62,7 @@ onMounted(fetchData);
   <section
     id="nilai"
     :ref="(el) => { sectionEl = el as HTMLElement }"
-    class="section-pad bg-background"
+    class="py-12 md:py-16 lg:py-20 bg-background"
   >
     <div class="container-site">
       <!-- Loading -->
